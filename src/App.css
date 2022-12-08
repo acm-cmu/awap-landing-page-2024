@@ -1,0 +1,68 @@
+.App {
+  /* variables to set colors, fonts, etc. */
+  --background-color: rgb(255, 241, 195);
+  --main-color: rgb(126, 24, 24);
+  --secondary-color: rgb(165, 96, 64);
+  --text-color: black;
+  --font-1: "Rubik";
+  --font-2: "Archivo Narrow";
+  --font-3: "Karla";
+  --section-header-font: "Rubik Bold";
+  --section-header-color: var(--main-color);
+  --section-text-color: var(--main-color);
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.section-header {
+  font-family: var(--section-header-font);
+  color: var(--section-header-color);
+  font-size: 200%;
+  width: 100%;
+}
+
+p {
+  font-size: 100;
+}
+
+hr {
+  margin: 50px 0 0 0;
+  border: 1px dashed var(--main-color);
+}
+
+.rover {
+  vertical-align: -100%;
+  display: inline-block;
+  width: 10%;
+}
+
+.line {
+  vertical-align: middle;
+  display: inline-block;
+  width: 90%;
+}
+
+.line p {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+  p {
+    font-size: smaller;
+  }
+}
