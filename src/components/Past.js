@@ -87,23 +87,23 @@ const Past = () => {
     <div className="past">
       <div className="past-content">
         <div className="section-header">Past Years</div>
-        <div class="past-buttons">
-          <button class="year-button" id="year2022" onClick={show2022}>
-            <span class="schedule-header-word">2022</span>
+        <div className="past-buttons">
+          <button className="year-button" id="year2022" onClick={show2022}>
+            <span className="schedule-header-word">2022</span>
           </button>
-          <button class="year-button" id="year2021" onClick={show2021}>
-            <span class="schedule-header-word">2021</span>
+          <button className="year-button" id="year2021" onClick={show2021}>
+            <span className="schedule-header-word">2021</span>
           </button>
-          <button class="year-button" id="year2019" onClick={show2019}>
-            <span class="schedule-header-word">2019</span>
+          <button className="year-button" id="year2019" onClick={show2019}>
+            <span className="schedule-header-word">2019</span>
           </button>
         </div>
-        <div class="past-info-box" id="past-info">
+        <div className="past-info-box" id="past-info">
           {year2022()}
         </div>
         <section>
-          <img class="rover" src="../../rover.png" alt="" />
-          <div class="line">
+          <img className="rover" src="../../rover.png" alt="" />
+          <div className="line">
             <hr />
           </div>
         </section>
