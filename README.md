@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Running the website
 Clone the directory onto your computer and ```cd``` into the project directory :
 ```
-git clone [...link here...]
-cd awap_landing_page_2023
+git clone https://github.com/ACM-CMU/awap-landing-page-2023
+cd awap-landing-page-2023
 ```
 
 To install Node.js and npm, go [here](https://nodejs.org/en/download/)
