@@ -59,17 +59,17 @@
   border-radius: 8px;
 }
 
-.past .col {
-  width: 35%;
+.past .row {
+  width: auto;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
 .past .two {
-  width: 65%;
-  justify-content: flex-end;
+  width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .past p {
@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 800px) {
   .past {
-    height: auto;
+    height: fit-content;
   }
   .past-content {
     font-size: small;
@@ -98,7 +98,7 @@
     padding: 5px 10px;
     font-size: larger;
   }
-  .past .col {
+  .past .row {
     width: 100%;
   }
   .past .past-image img {

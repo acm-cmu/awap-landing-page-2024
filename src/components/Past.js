@@ -4,13 +4,18 @@ import ReactDOMServer from "react-dom/server";
 const year2022 = () => {
   return (
     <div className="row">
-      <div className="col one">
+      <div className="row one">
         <div className="past-description">
           <div className="past-title">Wifi Rumble</div>
-          <p>Todo</p>
+          <p>
+            Two competing companies have been contracted to provide wifi service
+            to a new population. Players control one of these companies to
+            efficiently gain the loyalty and business of these new customers,
+            while having to contend with another player.
+          </p>
         </div>
       </div>
-      <div className="col two">
+      <div className="row two">
         <div className="past-image">
           <img src="../../past/awap22-image.png" height="400" alt="sponsors" />
         </div>
@@ -22,13 +27,17 @@ const year2022 = () => {
 const year2021 = () => {
   return (
     <div className="row">
-      <div className="col one">
+      <div className="row one">
         <div className="past-description">
           <div className="past-title">Commute Chaos</div>
-          <p>Todo</p>
+          <p>
+            Players have to design a subway system to efficiently transport
+            riders to their destinations, while also keeping construction costs
+            low.
+          </p>
         </div>
       </div>
-      <div className="col two">
+      <div className="row two">
         <div className="past-image">
           <img src="../../past/awap21-image.png" height="400" alt="sponsors" />
         </div>
@@ -40,13 +49,17 @@ const year2021 = () => {
 const year2019 = () => {
   return (
     <div className="row">
-      <div className="col one">
+      <div className="row one">
         <div className="past-description">
           <div className="past-title">Career Fair Mayhem</div>
-          <p>Todo</p>
+          <p>
+            Players must navigate a challenging, yet rewarding world: the Career
+            Fair. They must manage their time efficiently in order to maximize
+            their gains from each booth.
+          </p>
         </div>
       </div>
-      <div className="col two">
+      <div className="row two">
         <div className="past-image">
           <img src="../../past/awap19-image.png" height="400" alt="sponsors" />
         </div>
