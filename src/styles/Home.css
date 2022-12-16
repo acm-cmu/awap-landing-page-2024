@@ -5,7 +5,8 @@
   flex-direction: row;
   overflow-x: visible !important;
   background-image: url("../../public/home/home.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -56,6 +57,7 @@
 .home-registration-open {
   font-family: var(--font-3);
   font-size: 150%;
+  margin: 0 0 150px 0;
 }
 
 .home p {
@@ -74,5 +76,8 @@
   video {
     width: 90%;
     height: auto;
+  }
+  .home-registration-open {
+    margin: auto;
   }
 }
