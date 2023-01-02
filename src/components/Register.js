@@ -11,11 +11,11 @@ const register = () => {
         </p>
         <div className="register-box">
           <p className="register-description">
-            Date: 2/17 - 2/18 <br></br>
-            Location: Rashid/Simmons (Tentative) <br></br>
-            Format: TBD <br></br>
-            Prize money: TBD <br></br>
-            Registration opens: TBD <br></br>
+            Date: 2/17 - 2/18<br></br>
+            Location: Rashid/Simmons<br></br>
+            Format: TBD<br></br>
+            Prize money: TBD<br></br>
+            Registration opens: TBD<br></br>
             Eligibility: CMU students
           </p>
         </div>

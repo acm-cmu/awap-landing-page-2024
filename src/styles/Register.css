@@ -40,7 +40,7 @@
 .register-description {
   font-size: larger;
   font-weight: bolder;
-  text-align: left;
+  text-align: center;
   color: var(--background-color);
 }
 
