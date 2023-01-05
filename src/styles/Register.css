@@ -41,7 +41,7 @@
   font-size: larger;
   font-weight: bolder;
   text-align: center;
-  color: var(--background-color);
+  color: white;
 }
 
 @media screen and (max-width: 800px) {

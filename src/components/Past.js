@@ -83,28 +83,31 @@ const year2019 = () => {
 };
 
 function show2022() {
-  document.getElementById("year2022").style.border =
-    "5px solid var(--main-color)";
-  document.getElementById("year2021").style.border = "0px solid white";
-  document.getElementById("year2019").style.border = "0px solid white";
+  document.getElementById("year2022").style.background = "var(--main-color)";
+  document.getElementById("year2021").style.background =
+    "var(--secondary-color)";
+  document.getElementById("year2019").style.background =
+    "var(--secondary-color)";
   document.getElementById("past-info").innerHTML =
     ReactDOMServer.renderToStaticMarkup(year2022());
 }
 
 function show2021() {
-  document.getElementById("year2022").style.border = "0px solid white";
-  document.getElementById("year2021").style.border =
-    "5px solid var(--main-color)";
-  document.getElementById("year2019").style.border = "0px solid white";
+  document.getElementById("year2022").style.background =
+    "var(--secondary-color)";
+  document.getElementById("year2021").style.background = "var(--main-color)";
+  document.getElementById("year2019").style.background =
+    "var(--secondary-color)";
   document.getElementById("past-info").innerHTML =
     ReactDOMServer.renderToStaticMarkup(year2021());
 }
 
 function show2019() {
-  document.getElementById("year2022").style.border = "0px solid white";
-  document.getElementById("year2021").style.border = "0px solid white";
-  document.getElementById("year2019").style.border =
-    "5px solid var(--main-color)";
+  document.getElementById("year2022").style.background =
+    "var(--secondary-color)";
+  document.getElementById("year2021").style.background =
+    "var(--secondary-color)";
+  document.getElementById("year2019").style.background = "var(--main-color)";
   document.getElementById("past-info").innerHTML =
     ReactDOMServer.renderToStaticMarkup(year2019());
 }
@@ -138,5 +141,11 @@ const Past = () => {
     </div>
   );
 };
+
+if (navigator.userAgent.match(/Mobile/)) {
+  document.getElementById("year2022").innerHTML = "2022";
+  document.getElementById("year2021").innerHTML = "2021";
+  document.getElementById("year2019").innerHTML = "2019";
+}
 
 export default Past;
