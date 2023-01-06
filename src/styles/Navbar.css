@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.mobile-button {
+  visibility: hidden;
+}
+
 .navbar .navbar-logo {
   font-family: var(--section-header-font);
   margin-left: 2em;
@@ -129,6 +133,9 @@
     width: 0px;
   }
   .bm-burger-button {
+    visibility: visible;
+  }
+  .mobile-button {
     visibility: visible;
   }
   body * {
