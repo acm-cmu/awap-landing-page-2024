@@ -21,7 +21,7 @@
 }
 
 .year-button {
-  padding: 15px 20px;
+  padding: 15px 18px;
   border-radius: 10px;
   font-family: var(--font-3);
   font-size: 100%;
@@ -30,7 +30,7 @@
   cursor: pointer;
   color: white;
   text-align: center;
-  margin: 20px;
+  margin: 15px;
   border: none;
 }
 

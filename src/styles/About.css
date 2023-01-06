@@ -33,11 +33,61 @@
   font-weight: bolder;
 }
 
+/* beginner info collapsible button */
+.beginner-button {
+  font-family: var(--font-3);
+  background-color: var(--background-color);
+  color: var(--main-color);
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  border-radius: 10px;
+  margin: 15px 0 15px 0;
+}
+
+.beginner-button:hover {
+  background-color: rgba(255, 241, 195, 0.69);
+}
+
+.beginner-button:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: medium;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.beginner-content {
+  padding: 0 18px;
+  border-radius: 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: var(--secondary-color);
+  margin: 0 0 30px 0;
+}
+/* beginner info collapsible button */
+
 @media screen and (max-width: 800px) {
   .about {
     height: auto;
   }
   .about-content {
     font-size: small;
+  }
+  .about .beginner-button {
+    font-size: medium;
+  }
+  .beginner-button:after {
+    font-size: smaller;
+    float: right;
   }
 }

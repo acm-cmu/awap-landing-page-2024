@@ -21,3 +21,25 @@ function App() {
 }
 
 export default App;
+
+// runs only after entire window loads
+window.onload = function changeMobileText() {
+  // changes past challenge button text if user is on mobile
+  if (navigator.userAgent.match(/Mobile/)) {
+    document.getElementById("year2022").innerHTML = "2022";
+    document.getElementById("year2021").innerHTML = "2021";
+    document.getElementById("year2019").innerHTML = "2019";
+  }
+
+  // event listener (click) for beginner button content
+  var beginnerButton = document.getElementsByClassName("beginner-button")[0];
+  beginnerButton.addEventListener("click", function () {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+};

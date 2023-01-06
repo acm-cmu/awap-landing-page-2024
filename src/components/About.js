@@ -24,6 +24,19 @@ const About = () => {
             team.
           </p>
         </div>
+        <button type="button" className="beginner-button">
+          I’m a beginner—can I still participate?
+        </button>
+        <div className="beginner-content">
+          <p>
+            Our goal is to make AWAP an engaging opportunity for all students.
+            The competition will have two divisions, for experienced and
+            beginner teams, so that each team will have the chance to
+            participate on a level playing field. Teams will code their
+            algorithm in Python, so only basic Python knowledge is necessary to
+            get going. Tldr; just come join us and see what AWAP is all about!
+          </p>
+        </div>
       </div>
     </div>
   );

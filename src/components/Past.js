@@ -142,12 +142,4 @@ const Past = () => {
   );
 };
 
-window.onload = function changeMobileText() {
-  if (navigator.userAgent.match(/Mobile/)) {
-    document.getElementById("year2022").innerHTML = "2022";
-    document.getElementById("year2021").innerHTML = "2021";
-    document.getElementById("year2019").innerHTML = "2019";
-  }
-};
-
 export default Past;
