@@ -48,11 +48,20 @@ const Sponsors = () => {
         <div className="row" id="silver-sponsors-container">
           {/* <div className="col sponsors-level">Silver</div> */}
           <div className="col sponsors sponsors-silver">
+            <a href="https://www.regression.gg/">
+              <img
+                src="../../sponsors/regression-logo.png"
+                alt="regression games"
+              />
+            </a>
             <a href="https://www.oldmissioncapital.com/">
               <img src="../../sponsors/omc-logo.png" alt="omc" />
             </a>
             <a href="https://www.sandia.gov/">
               <img src="../../sponsors/sandia-logo.png" alt="sandia" />
+            </a>
+            <a href="https://sig.com/">
+              <img src="../../sponsors/sig-logo.png" alt="sig" />
             </a>
           </div>
         </div>
