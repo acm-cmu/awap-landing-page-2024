@@ -7,19 +7,23 @@ const Homepage = () => {
         <div className="home-content">
           <div className="home-acm">ACM@CMU PRESENTS</div>
           <div className="home-awap">
-            Algorithms with a <br></br> Purpose 2023
+            Algorithms with a <br></br> Purpose 2023:
           </div>
-          {/* <div className="home-register-button">
-          <a
-            className="home-register-link"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdiA-v8H8oi1hh772syQN3LFGJcmjPdB0UWXkf2PDzYFFbn_A/viewform"
-          >
-            Register Here
-          </a>
-        </div> */}
-          <div className="home-registration-open">
+          <div className="home-event-title">MARS MAKEOVER</div>
+          <div className="home-register-button-wrapper">
+            <div className="home-register-button">
+              <a
+                className="home-register-link"
+                href="https://forms.gle/A5ypCS5JBwiki4Uw8"
+                target="_blank"
+              >
+                Register Here!
+              </a>
+            </div>
+          </div>
+          {/* <div className="home-registration-open">
             Registration Opening Soon!
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="col two">
