@@ -10,7 +10,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-content">
         <Link to="home" smooth={true} offset={-0.08 * window.innerHeight}>
-          <div className="navbar-logo">AWAP</div>
+          <div className="navbar-logo">
+            <img src="../../awap-logo.PNG" width="150px" alt="AWAP logo" />
+          </div>
         </Link>
         <div className="links-container">
           <Link to="home" smooth={true} offset={-0.08 * window.innerHeight}>

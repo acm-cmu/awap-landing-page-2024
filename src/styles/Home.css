@@ -102,4 +102,16 @@
   .home-registration-open {
     margin: auto;
   }
+  .home-acm {
+    margin: 0 0 10px 0;
+  }
+  .home-awap {
+    font-size: smallest;
+  }
+  .home-register-button {
+    margin: 0 0 10px 0;
+  }
+  .home-event-title {
+    margin: 0 0 20px 0;
+  }
 }

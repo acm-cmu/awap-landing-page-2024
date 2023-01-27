@@ -7,7 +7,7 @@ const Homepage = () => {
         <div className="home-content">
           <div className="home-acm">ACM@CMU PRESENTS</div>
           <div className="home-awap">
-            Algorithms with a <br></br> Purpose 2023:
+            Algorithms with<br></br>a Purpose 2023:
           </div>
           <div className="home-event-title">MARS MAKEOVER</div>
           <div className="home-register-button-wrapper">

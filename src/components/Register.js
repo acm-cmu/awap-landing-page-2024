@@ -14,7 +14,7 @@ const register = () => {
             Date: 2/17 5 PM - 2/18 5 PM<br></br>
             Location: Rashid/Simmons<br></br>
             Eligibility: CMU students<br></br>
-            Registration Deadline: <br></br>
+            Registration Deadline: 2/13<br></br>
             Team Size: Up to 4
           </p>
         </div>

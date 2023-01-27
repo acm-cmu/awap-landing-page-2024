@@ -49,6 +49,10 @@
   color: var(--main-color);
 }
 
+.navbar .navbar-logo .img {
+  width: 10px;
+}
+
 .bm-burger-button {
   visibility: hidden;
   position: fixed;
