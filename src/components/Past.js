@@ -4,10 +4,15 @@ import ReactDOMServer from "react-dom/server";
 const year2022 = () => {
   return (
     <div className="row">
+      <div className="row two">
+        <div className="past-image">
+          <img src="../../past/awap22-image.png" height="300" alt="sponsors" />
+        </div>
+      </div>
       <div className="row one">
         <div className="past-description">
           <div className="past-title">Wifi Rumble - 2022</div>
-          <p style={{textAlign:"center"}}>
+          <p style={{textAlign:"center", fontSize:"medium", lineHeight:"1.5rem"}}>
             Wifi Rumble was our largest AWAP event yet, with teams competing
             head-to-head in a seeding round and subsequent double elimination
             bracket for the top prize. Students acted as internet service
@@ -20,11 +25,6 @@ const year2022 = () => {
           </p>
         </div>
       </div>
-      <div className="row two">
-        <div className="past-image">
-          <img src="../../past/awap22-image.png" height="300" alt="sponsors" />
-        </div>
-      </div>
     </div>
   );
 };
@@ -32,10 +32,15 @@ const year2022 = () => {
 const year2021 = () => {
   return (
     <div className="row">
+      <div className="row two">
+        <div className="past-image">
+          <img src="../../past/awap21-image.png" height="300" alt="sponsors" />
+        </div>
+      </div>
       <div className="row one">
         <div className="past-description">
           <div className="past-title">Commute Chaos - 2021</div>
-          <p style={{textAlign:"center"}}>
+          <p style={{textAlign:"center", fontSize:"medium", lineHeight:"1.5rem"}}>
             In 2021, AWAP was hosted virtually due to COVID, with a theme based
             on effective transportation management. Each team operated as a
             Transportation Manager whose role was to design a subway network.
@@ -46,11 +51,6 @@ const year2021 = () => {
           </p>
         </div>
       </div>
-      <div className="row two">
-        <div className="past-image">
-          <img src="../../past/awap21-image.png" height="300" alt="sponsors" />
-        </div>
-      </div>
     </div>
   );
 };
@@ -58,10 +58,15 @@ const year2021 = () => {
 const year2019 = () => {
   return (
     <div className="row">
+      <div className="row two">
+        <div className="past-image">
+          <img src="../../past/awap19-image.png" height="300" alt="sponsors" />
+        </div>
+      </div>
       <div className="row one">
         <div className="past-description">
           <div className="past-title">Career Fair Mayhem - 2019</div>
-          <p style={{textAlign:"center"}}>
+          <p style={{textAlign:"center", fontSize:"medium", lineHeight:"1.5rem"}}>
             Our 2019 challenge simulated a real-world problem relevant (and
             possibly traumatic) to many students—navigating the chaos of a
             career fair. In this problem, teams were tasked to navigate a map of
@@ -71,11 +76,6 @@ const year2019 = () => {
             their profit without wasting too much of their limited time waiting
             in long lines.
           </p>
-        </div>
-      </div>
-      <div className="row two">
-        <div className="past-image">
-          <img src="../../past/awap19-image.png" height="300" alt="sponsors" />
         </div>
       </div>
     </div>

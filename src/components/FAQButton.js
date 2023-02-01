@@ -14,7 +14,7 @@ const FAQButton = ({question,answer}) => {
      <button type="button" className={`beginner-button ${isActive ? "active" : null}`} onClick={activateDropdown}>
         {question}
       </button>
-      <div className="beginner-content" style={{maxHeight: isActive ? "200px" : null }}>
+      <div className="beginner-content" style={{maxHeight: isActive ? "20rem" : null }}>
         <p>
           {answer}
         </p>
