@@ -34,7 +34,7 @@
 
 .home-awap {
   font-family: "Rubik";
-  font-size: 250%;
+  font-size: 100%;
   color: var(--main-color);
   font-weight: 900;
   margin: 0 0 5px 0;
@@ -76,7 +76,7 @@
 
 .home-event-title {
   font-family: "Orbitron";
-  font-size: 225%;
+  font-size: 250%;
   margin: 0 0 40px 0;
   color: var(--main-color);
   font-weight: 800;
