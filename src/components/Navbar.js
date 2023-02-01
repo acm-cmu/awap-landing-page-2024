@@ -18,11 +18,11 @@ const Navbar = () => {
           <Link to="home" smooth={true} offset={-0.08 * window.innerHeight}>
             <div className="link">Home</div>
           </Link>
+          <Link to="register" smooth={true} offset={-0.04 * window.innerHeight}>
+            <div className="link">Event Details</div>
+          </Link>
           <Link to="about" smooth={true} offset={-0.04 * window.innerHeight}>
             <div className="link">About</div>
-          </Link>
-          <Link to="register" smooth={true} offset={-0.04 * window.innerHeight}>
-            <div className="link">Register</div>
           </Link>
           <Link to="past" smooth={true} offset={-0.06 * window.innerHeight}>
             <div className="link">Past Challenges</div>
