@@ -5,9 +5,14 @@ const Homepage = () => {
     <div className="home">
       <div className="col one">
         <div className="home-content">
+          <img src="../../awap-logo.PNG" width="100%" alt="AWAP logo" />
+        </div>
+      </div>
+      <div className="col one">
+        <div className="home-content">
           <div className="home-acm">ACM@CMU PRESENTS</div>
           <div className="home-awap">
-            Algorithms with<br></br>a Purpose 2023:
+            Algorithms with a Purpose 2023:
           </div>
           <div className="home-event-title">MARS MAKEOVER</div>
           <div className="home-register-button-wrapper">
@@ -24,15 +29,6 @@ const Homepage = () => {
           {/* <div className="home-registration-open">
             Registration Opening Soon!
           </div> */}
-        </div>
-      </div>
-      <div className="col two">
-        <div className="home-content">
-          <video loop autoPlay muted width="500" height="500">
-            <source src="../../home/vid.mp4" type="video/mp4" />
-            <p>Your browser doesn't support this video.</p>
-          </video>
-          <p>AWAP 2022 (Wifi Rumble) Gameplay Demo</p>
         </div>
       </div>
     </div>
