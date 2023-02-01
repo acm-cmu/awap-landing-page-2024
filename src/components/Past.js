@@ -7,7 +7,7 @@ const year2022 = () => {
       <div className="row one">
         <div className="past-description">
           <div className="past-title">Wifi Rumble - 2022</div>
-          <p>
+          <p style={{textAlign:"center"}}>
             Wifi Rumble was our largest AWAP event yet, with teams competing
             head-to-head in a seeding round and subsequent double elimination
             bracket for the top prize. Students acted as internet service
@@ -35,7 +35,7 @@ const year2021 = () => {
       <div className="row one">
         <div className="past-description">
           <div className="past-title">Commute Chaos - 2021</div>
-          <p>
+          <p style={{textAlign:"center"}}>
             In 2021, AWAP was hosted virtually due to COVID, with a theme based
             on effective transportation management. Each team operated as a
             Transportation Manager whose role was to design a subway network.
@@ -61,7 +61,7 @@ const year2019 = () => {
       <div className="row one">
         <div className="past-description">
           <div className="past-title">Career Fair Mayhem - 2019</div>
-          <p>
+          <p style={{textAlign:"center"}}>
             Our 2019 challenge simulated a real-world problem relevant (and
             possibly traumatic) to many students—navigating the chaos of a
             career fair. In this problem, teams were tasked to navigate a map of
