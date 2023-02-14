@@ -1,13 +1,16 @@
 import "../styles/Past.css";
 import ReactDOMServer from "react-dom/server";
 import rover from "../rover.png";
+import awap19 from "../past/awap19-image.png";
+import awap21 from "../past/awap21-image.png";
+import awap22 from "../past/awap22-image.png";
 
 const year2022 = () => {
   return (
     <div className="row">
       <div className="row two">
         <div className="past-image">
-          <img src="../../past/awap22-image.png" height="300" alt="sponsors" />
+          <img src={awap22} height="300" alt="sponsors" />
         </div>
       </div>
       <div className="row one">
@@ -35,7 +38,7 @@ const year2021 = () => {
     <div className="row">
       <div className="row two">
         <div className="past-image">
-          <img src="../../past/awap21-image.png" height="300" alt="sponsors" />
+          <img src={awap21} height="300" alt="sponsors" />
         </div>
       </div>
       <div className="row one">
@@ -61,7 +64,7 @@ const year2019 = () => {
     <div className="row">
       <div className="row two">
         <div className="past-image">
-          <img src="../../past/awap19-image.png" height="300" alt="sponsors" />
+          <img src={awap19} height="300" alt="sponsors" />
         </div>
       </div>
       <div className="row one">
