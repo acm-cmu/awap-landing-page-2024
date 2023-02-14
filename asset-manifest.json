@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/awap-landing-page-2023/static/css/main.4b105924.css",
+    "main.js": "/awap-landing-page-2023/static/js/main.e145df6c.js",
+    "static/media/home.jpg": "/awap-landing-page-2023/static/media/home.ad7010bfe5f2c61e7cd3.jpg",
+    "static/media/Rubik-ExtraBold.ttf": "/awap-landing-page-2023/static/media/Rubik-ExtraBold.f8a8999c078e4c19d1c2.ttf",
+    "index.html": "/awap-landing-page-2023/index.html",
+    "main.4b105924.css.map": "/awap-landing-page-2023/static/css/main.4b105924.css.map",
+    "main.e145df6c.js.map": "/awap-landing-page-2023/static/js/main.e145df6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b105924.css",
+    "static/js/main.e145df6c.js"
+  ]
+}
