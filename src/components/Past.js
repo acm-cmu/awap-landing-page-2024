@@ -1,5 +1,6 @@
 import "../styles/Past.css";
 import ReactDOMServer from "react-dom/server";
+import rover from "../rover.png";
 
 const year2022 = () => {
   return (
@@ -132,7 +133,7 @@ const Past = () => {
           {year2022()}
         </div>
         <section>
-          <img className="rover" src="../../rover.png" alt="" />
+          <img className="rover" src={rover} alt="" />
           <div className="line">
             <hr />
           </div>

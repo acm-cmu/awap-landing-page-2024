@@ -2,6 +2,7 @@ import "../styles/Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { slide as Menu } from "react-burger-menu";
+import awap_logo from "../awap-logo.PNG";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
       <div className="navbar-content">
         <Link to="home" smooth={true} offset={-0.08 * window.innerHeight}>
           <div className="navbar-logo">
-            <img src="../../awap-logo.PNG" width="150px" alt="AWAP logo" />
+            <img src={awap_logo} width="150px" alt="AWAP logo" />
           </div>
         </Link>
         <div className="links-container">

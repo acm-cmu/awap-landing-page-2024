@@ -1,4 +1,5 @@
 import "../styles/Register.css";
+import rover from "../rover.png";
 
 const EventDetails = () => {
   return (
@@ -22,7 +23,7 @@ const EventDetails = () => {
           <div className="line">
             <hr />
           </div>
-          <img className="rover" src="../../rover.png" alt="" />
+          <img className="rover" src={rover} alt="" /> 
         </section>
       </div>
     </div>
