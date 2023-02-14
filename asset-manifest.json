@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/awap-landing-page-2023/static/css/main.4b105924.css",
-    "main.js": "/awap-landing-page-2023/static/js/main.bc20667b.js",
+    "main.js": "/awap-landing-page-2023/static/js/main.f36335bf.js",
+    "static/media/awap22-image.png": "/awap-landing-page-2023/static/media/awap22-image.1a9db4d94b88032a8994.png",
     "static/media/meta-logo.png": "/awap-landing-page-2023/static/media/meta-logo.b0c4aca67dee606be8b1.png",
     "static/media/home.jpg": "/awap-landing-page-2023/static/media/home.ad7010bfe5f2c61e7cd3.jpg",
     "static/media/Rubik-ExtraBold.ttf": "/awap-landing-page-2023/static/media/Rubik-ExtraBold.f8a8999c078e4c19d1c2.ttf",
+    "static/media/awap21-image.png": "/awap-landing-page-2023/static/media/awap21-image.dbf01e65d3be7c25502e.png",
     "static/media/regression-logo.png": "/awap-landing-page-2023/static/media/regression-logo.f7da5db9dc922980b79f.png",
     "static/media/rover.png": "/awap-landing-page-2023/static/media/rover.a8d993f5afbb04f79146.png",
+    "static/media/awap19-image.png": "/awap-landing-page-2023/static/media/awap19-image.66c33d4b97d8624b5c7b.png",
     "static/media/awap-logo.PNG": "/awap-landing-page-2023/static/media/awap-logo.9260833777db5a58bccc.PNG",
     "static/media/bloomberg-logo-blue.png": "/awap-landing-page-2023/static/media/bloomberg-logo-blue.88e4aad94dcc86ad3a0b.png",
     "static/media/sandia-logo.png": "/awap-landing-page-2023/static/media/sandia-logo.f9f83d6fe0835fbf56bf.png",
@@ -18,10 +21,10 @@
     "static/media/omc-logo.png": "/awap-landing-page-2023/static/media/omc-logo.19207c6d14a00d2f9302.png",
     "index.html": "/awap-landing-page-2023/index.html",
     "main.4b105924.css.map": "/awap-landing-page-2023/static/css/main.4b105924.css.map",
-    "main.bc20667b.js.map": "/awap-landing-page-2023/static/js/main.bc20667b.js.map"
+    "main.f36335bf.js.map": "/awap-landing-page-2023/static/js/main.f36335bf.js.map"
   },
   "entrypoints": [
     "static/css/main.4b105924.css",
-    "static/js/main.bc20667b.js"
+    "static/js/main.f36335bf.js"
   ]
 }
