@@ -13,7 +13,7 @@ const EventDetails = () => {
         <div className="register-box">
           <p className="register-description">
             Start: Now - Happy hacking!<br></br>
-            End: Tomorrow, 5 PM @ TEP 1101 Simmons Auditorium!<br></br>
+            End: Today, 5 PM @ TEP 1101 Simmons Auditorium!<br></br>
           </p>
           <iframe
             src="https://discord.com/widget?id=1074365724400832532&theme=dark"
