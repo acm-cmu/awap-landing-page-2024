@@ -1,9 +1,9 @@
 .App {
   /* variables to set colors, fonts, etc. */
   --background-color: rgb(255, 241, 195);
-  --main-color: rgb(126, 24, 24);
-  --secondary-color: rgb(165, 96, 64);
-  --text-color: black;
+  --main-color: rgb(28, 26, 124);
+  --secondary-color: rgb(34, 107, 47);
+  --text-color: rgb(0, 0, 0);
   --font-1: "Rubik";
   --font-2: "Archivo Narrow";
   --font-3: "Karla";

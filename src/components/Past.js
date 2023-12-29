@@ -4,6 +4,32 @@ import rover from "../rover.png";
 import awap19 from "../past/awap19-image.png";
 import awap21 from "../past/awap21-image.png";
 import awap22 from "../past/awap22-image.png";
+import awap23 from "../past/awap23-image.png";
+const year2023 = () => {
+  return (
+    <div className="row">
+      <div className="row two">
+        <div className="past-image">
+          <img src={awap23} height="300" alt="sponsors" />
+        </div>
+      </div>
+      <div className="row one">
+        <div className="past-description">
+          <div className="past-title">Mars Makeover - 2023</div>
+          <p style={{textAlign:"center", fontSize:"medium", lineHeight:"1.5rem"}}>
+            Mars Makeover was our largest event yet, where teams competed to 
+            use their fleet of explorer robots to explore the planet, collect resources 
+            from metal deposits using miner robots to then expand their fleet, 
+            and terraform land tiles to take over the planet. Players could then 
+            transform robots to satisfy their needs as the game progressed to eventually
+            terraform more tiles than their opponent by the end of the game. Algorithms 
+            had to control the varying metal resources, robot collisions, and costs to transform.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const year2022 = () => {
   return (
@@ -17,7 +43,7 @@ const year2022 = () => {
         <div className="past-description">
           <div className="past-title">Wifi Rumble - 2022</div>
           <p style={{textAlign:"center", fontSize:"medium", lineHeight:"1.5rem"}}>
-            Wifi Rumble was our largest AWAP event yet, with teams competing
+            Returning from COVID, Wifi Rumble was a blast, with teams competing
             head-to-head in a seeding round and subsequent double elimination
             bracket for the top prize. Students acted as internet service
             providers to establish cell towers across the impoverished and
@@ -86,7 +112,21 @@ const year2019 = () => {
   );
 };
 
+function show2023() {
+  document.getElementById("year2023").style.background = "var(--main-color)";
+  document.getElementById("year2022").style.background =
+    "var(--secondary-color)";
+  document.getElementById("year2021").style.background =
+    "var(--secondary-color)";
+  document.getElementById("year2019").style.background =
+    "var(--secondary-color)";
+  document.getElementById("past-info").innerHTML =
+    ReactDOMServer.renderToStaticMarkup(year2023());
+}
+
 function show2022() {
+  document.getElementById("year2023").style.background =
+    "var(--secondary-color)";
   document.getElementById("year2022").style.background = "var(--main-color)";
   document.getElementById("year2021").style.background =
     "var(--secondary-color)";
@@ -97,6 +137,8 @@ function show2022() {
 }
 
 function show2021() {
+  document.getElementById("year2023").style.background =
+    "var(--secondary-color)";
   document.getElementById("year2022").style.background =
     "var(--secondary-color)";
   document.getElementById("year2021").style.background = "var(--main-color)";
@@ -107,6 +149,8 @@ function show2021() {
 }
 
 function show2019() {
+  document.getElementById("year2023").style.background =
+    "var(--secondary-color)";
   document.getElementById("year2022").style.background =
     "var(--secondary-color)";
   document.getElementById("year2021").style.background =
@@ -122,6 +166,9 @@ const Past = () => {
       <div className="past-content">
         <div className="section-header">Past Challenges</div>
         <div className="past-buttons">
+        <button className="year-button" id="year2023" onClick={show2023}>
+            <span className="schedule-header-word">Mars Makeover</span>
+          </button>
           <button className="year-button" id="year2022" onClick={show2022}>
             <span className="schedule-header-word">Wifi Rumble</span>
           </button>
@@ -133,7 +180,7 @@ const Past = () => {
           </button>
         </div>
         <div className="past-info-box" id="past-info">
-          {year2022()}
+          {year2023()}
         </div>
         <section>
           <img className="rover" src={rover} alt="" />

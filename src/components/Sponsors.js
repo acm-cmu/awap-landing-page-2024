@@ -1,5 +1,6 @@
 import "../styles/Sponsors.css";
 import citadel_logo from "../sponsors/citadel-logo.png";
+import trade_desk_logo from "../sponsors/tradedesk.png";
 import aptiv_logo from "../sponsors/aptiv-logo.png";
 import bloomberg_logo from "../sponsors/bloomberg-logo-blue.png";
 import hrt_logo from "../sponsors/hrt-logo-clipart.png";
@@ -11,6 +12,11 @@ import omc_logo from "../sponsors/omc-logo.png";
 import sandia_logo from "../sponsors/sandia-logo.png";
 import scm_logo from "../sponsors/scm-logo.png";
 import sig_logo from "../sponsors/sig-logo.png";
+import stripe_logo from "../sponsors/stripe.png";
+import ford_logo from "../sponsors/ford.png";
+import bnymellon_logo from "../sponsors/bnymellon.jpeg";
+import deshaw_logo from "../sponsors/deshaw.png";
+import lockheed_logo from "../sponsors/lockheed.png";
 
 const Sponsors = () => {
   return (
@@ -20,19 +26,31 @@ const Sponsors = () => {
         <div className="row" id="plat-sponsors-container">
           {/* <div className="col sponsors-level">Platinum</div> */}
           <div className="col sponsors sponsors-platinum">
-            <a href="https://www.citadel.com">
+          <a href="https://www.citadel.com">
               <img src={citadel_logo} alt="citadel" />
+            </a>
+            <a href="https://www.thetradedesk.com">
+              <img src={trade_desk_logo} alt="the trade desk" />
+            </a>
+            <a href="https://www.hudsonrivertrading.com">
+              <img src={hrt_logo} alt="hrt" />
+            </a>
+            <a href="https://www.stripe.com">
+              <img src={stripe_logo} alt="stripe" />
             </a>
           </div>
         </div>
         <div className="row" id="gold-sponsors-container">
           {/* <div className="col sponsors-level">Gold</div> */}
           <div className="col sponsors sponsors-gold">
-            <a href="https://www.microsoft.com/en-us/">
-              <img src={microsoft_logo} alt="microsoft" />
+            <a href="https://www.ford.com">
+              <img src={ford_logo} alt="ford" />
             </a>
-            <a className="hrt-logo" href="https://www.hudsonrivertrading.com/">
-              <img src={hrt_logo} alt="hudson river trading" />
+            <a href="https://www.bnymellon.com/">
+              <img src={bnymellon_logo} alt="ford" />
+            </a>
+            <a className="hrt-logo" href="https://www.deshaw.com/">
+              <img src={deshaw_logo} alt="hudson river trading" />
             </a>
             <a
               className="rounded-sponsor-img"
@@ -46,29 +64,22 @@ const Sponsors = () => {
             >
               <img src={janestreet_logo} alt="jane street" />
             </a>
-            <a className="rounded-sponsor-img" href="https://www.aptiv.com">
-                <img src = {aptiv_logo} alt = "aptiv" />
+            <a href="https://sig.com/">
+              <img src={sig_logo} alt="sig" />
             </a>
-            <a href="https://about.facebook.com/">
-              <img src={meta_logo} alt="meta" />
+            <a href="https://www.lockheedmartin.com/en-us">
+              <img src={lockheed_logo} alt="lockheed" />
             </a>
+            
           </div>
         </div>
         <div className="row" id="silver-sponsors-container">
           {/* <div className="col sponsors-level">Silver</div> */}
           <div className="col sponsors sponsors-silver">
-            <a href="https://www.regression.gg/">
-              <img src={regression_logo} alt="regression" />
-            </a>
-            <a href="https://www.oldmissioncapital.com/">
-              <img src={omc_logo} alt="old mission capital" />
-            </a>
             <a href="https://www.sandia.gov/">
               <img src={sandia_logo} alt="sandia" />
             </a>
-            <a href="https://sig.com/">
-              <img src={sig_logo} alt="sig" />
-            </a>
+            
           </div>
         </div>
         <div className="row" id="bronze-sponsors-container">
