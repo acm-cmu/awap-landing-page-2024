@@ -13,7 +13,7 @@ const Homepage = () => {
         <div className="home-content">
           <div className="home-acm">ACM@CMU PRESENTS</div>
           <div className="home-awap">Algorithms with a Purpose 2024:</div>
-          <div className="home-event-title">BLOONS TOWER DEFENSE</div>
+          <div className="home-event-title">DEBRIS DEFENSE</div>
           {/*
           <div className="home-register-button-wrapper">
             <div className="home-register-button">

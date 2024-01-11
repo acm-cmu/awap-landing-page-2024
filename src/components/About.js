@@ -16,7 +16,7 @@ const About = () => {
         <FAQButton
           key={2}
           question="Q: What is this year's game about?"
-          answer="This year's theme is Bloons Tower Defense! Players will use optimize their towers and resources to protect their base against incoming bloons. The team with the best algorithm wins!"
+          answer="This year's theme is Debris Defense! Players will use optimize their towers and resources to protect their base against incoming space debris. The team with the best algorithm wins!"
         />
         <FAQButton
           key={3}
