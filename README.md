@@ -1,11 +1,11 @@
-# AWAP 2023 Landing Page
+# AWAP 2024 Landing Page
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Ensure git and npm are installed on your computer. 
 
 ## Running the website
 Clone the directory onto your computer and ```cd``` into the project directory :
 ```
-git clone https://github.com/ACM-CMU/awap-landing-page-2023
-cd awap-landing-page-2023
+git clone https://github.com/ACM-CMU/awap-landing-page-2024
+cd awap-landing-page-2024
 ```
 
 To install Node.js and npm, go [here](https://nodejs.org/en/download/)

@@ -7,7 +7,7 @@ const EventDetails = () => {
       <div className="register-content">
         <div className="section-header">Event Details</div>
         <p className="register-update">
-          {/* We're still finalizing the details for AWAP 2023; stay tuned for
+          {/* We're still finalizing the details for AWAP 2024; stay tuned for
           updates! */}
         </p>
         <div className="register-box">
