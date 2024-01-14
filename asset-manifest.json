@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b977d8e1.css",
-    "main.js": "/static/js/main.0410a5a5.js",
-    "static/media/awap23-image.png": "/static/media/awap23-image.ede59a6ba643fabce233.png",
+    "main.js": "/static/js/main.efea3b1d.js",
     "static/media/awap22-image.png": "/static/media/awap22-image.1a9db4d94b88032a8994.png",
     "static/media/meta-logo.png": "/static/media/meta-logo.b0c4aca67dee606be8b1.png",
     "static/media/spacehome.jpeg": "/static/media/spacehome.4d7d8ca085f1aa06f3c9.jpeg",
     "static/media/Rubik-ExtraBold.ttf": "/static/media/Rubik-ExtraBold.f8a8999c078e4c19d1c2.ttf",
+    "static/media/awap23-image.png": "/static/media/awap23-image.f473935432285955379a.png",
     "static/media/awap21-image.png": "/static/media/awap21-image.dbf01e65d3be7c25502e.png",
     "static/media/regression-logo.png": "/static/media/regression-logo.f7da5db9dc922980b79f.png",
     "static/media/rover.png": "/static/media/rover.a8d993f5afbb04f79146.png",
@@ -27,10 +27,10 @@
     "static/media/omc-logo.png": "/static/media/omc-logo.19207c6d14a00d2f9302.png",
     "index.html": "/index.html",
     "main.b977d8e1.css.map": "/static/css/main.b977d8e1.css.map",
-    "main.0410a5a5.js.map": "/static/js/main.0410a5a5.js.map"
+    "main.efea3b1d.js.map": "/static/js/main.efea3b1d.js.map"
   },
   "entrypoints": [
     "static/css/main.b977d8e1.css",
-    "static/js/main.0410a5a5.js"
+    "static/js/main.efea3b1d.js"
   ]
 }
