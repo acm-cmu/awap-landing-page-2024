@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.baf293ca.css",
+    "main.css": "/static/css/main.45d8bf97.css",
     "main.js": "/static/js/main.375632a5.js",
     "static/media/awap23-image.png": "/static/media/awap23-image.ede59a6ba643fabce233.png",
     "static/media/awap22-image.png": "/static/media/awap22-image.1a9db4d94b88032a8994.png",
@@ -26,11 +26,11 @@
     "static/media/citadel-logo.png": "/static/media/citadel-logo.77c4cab29fb604482d3b.png",
     "static/media/omc-logo.png": "/static/media/omc-logo.19207c6d14a00d2f9302.png",
     "index.html": "/index.html",
-    "main.baf293ca.css.map": "/static/css/main.baf293ca.css.map",
+    "main.45d8bf97.css.map": "/static/css/main.45d8bf97.css.map",
     "main.375632a5.js.map": "/static/js/main.375632a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.baf293ca.css",
+    "static/css/main.45d8bf97.css",
     "static/js/main.375632a5.js"
   ]
 }
