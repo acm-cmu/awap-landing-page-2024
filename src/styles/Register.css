@@ -38,7 +38,7 @@
 }
 
 .register-description {
-  font-size: larger;
+  /* font-size: 3vw; */
   font-weight: bolder;
   text-align: center;
   color: white;
