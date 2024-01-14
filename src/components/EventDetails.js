@@ -15,14 +15,7 @@ const EventDetails = () => {
             Start: January 27, 5 PM @ Rashid Auditorium<br></br>
             End: January 28, 5 PM @ Rashid Auditorium<br></br>
           </p>
-          <iframe
-            src="https://discord.com/widget?id=1074365724400832532&theme=dark"
-            width="102%"
-            height="75%"
-            allowtransparency="true"
-            frameborder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-          ></iframe>
+          <iframe src="https://discord.com/widget?id=1099870874594705539&theme=dark" width="500" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
         <section>
           <div className="line">
