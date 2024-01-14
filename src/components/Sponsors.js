@@ -25,7 +25,7 @@ const Sponsors = () => {
       <div className="sponsors-content">
         <div className="row" id="plat-sponsors-container">
           {/* <div className="col sponsors-level">Platinum</div> */}
-          <div className="col sponsors sponsors-platinum">
+          <div className="coll sponsors sponsors-platinum">
           <a href="https://www.citadel.com">
               <img src={citadel_logo} alt="citadel" />
             </a>
@@ -42,7 +42,7 @@ const Sponsors = () => {
         </div>
         <div className="row" id="gold-sponsors-container">
           {/* <div className="col sponsors-level">Gold</div> */}
-          <div className="col sponsors sponsors-gold">
+          <div className="coll sponsors sponsors-gold">
             <a href="https://www.ford.com">
               <img src={ford_logo} alt="ford" />
             </a>

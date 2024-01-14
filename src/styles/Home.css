@@ -1,21 +1,47 @@
 .home {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   overflow-x: visible !important;
-  background-image: url("../../public/home/home.jpg");
+  background-image: url("../../public/home/spacehome.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-
+.onee {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow-x: visible !important;
+  background-image: url("../../public/home/spacehome.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.twoo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow-x: visible !important;
+  /* background-image: url("../../public/home/spacehome.jpeg"); */
+  background-color: #141d2e;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 .col {
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 50%;
 }
 
 .home-content {
@@ -28,6 +54,7 @@
 
 .home-acm {
   font-family: var(--font-1);
+  color: var(--secondary-color);
   font-size: 170%;
   margin: 0 0 20px 0;
 }
@@ -35,7 +62,7 @@
 .home-awap {
   font-family: "Rubik";
   font-size: 100%;
-  color: var(--main-color);
+  color: var(--text-color);
   font-weight: 900;
   margin: 0 0 5px 0;
 }
@@ -66,7 +93,7 @@
 }
 
 .home-register-button:hover {
-  background-color: rgba(218, 189, 157);
+  background-color: rgb(231, 228, 224);
 }
 
 .home-register-link {
@@ -76,9 +103,9 @@
 
 .home-event-title {
   font-family: "Orbitron";
-  font-size: 200%;
+  font-size: 250%;
   margin: 0 0 40px 0;
-  color: var(--main-color);
+  color: var(--secondary-color);
   font-weight: 800;
 }
 
