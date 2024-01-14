@@ -21,7 +21,7 @@ const About = () => {
         <FAQButton
           key={3}
           question="Q: What if I don't have a team yet?"
-          answer="No worries! We have a team matching channel on Discord :)"
+          answer="No worries! We will have a team matching channel on Discord :)"
         />
         <FAQButton
           key={1}
@@ -34,7 +34,7 @@ const About = () => {
         <FAQButton
           key={4}
           question="Q: But what if I'm really, really beginner, like really?"
-          answer="We will have mentors and office hours available to help you out!"
+          answer="We will have office hours available to help you out!"
         />
         <FAQButton
           key={5}
