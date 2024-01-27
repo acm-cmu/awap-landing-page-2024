@@ -122,10 +122,7 @@ const EventDetails = () => {
             <div class="legend-box main-event2"></div>
             <p class="legend-label">Main Event</p>
           </div>
-          <div class="legend-event">
-            <div class="legend-box workshop"></div>
-            <p class="legend-label">Workshop</p>
-          </div>
+          
         </div>
         <div class="schedule-days">
           <button class="year-button" id="friday" onClick={showFriday}>
