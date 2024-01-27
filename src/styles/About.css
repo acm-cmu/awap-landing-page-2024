@@ -24,8 +24,9 @@
 }
 
 .about .about-content p {
-  color: var(--background-color);
+  color: rgb(171, 94, 78);
   line-height: 200%;
+  font-weight: bold;
 }
 
 .about-description {
