@@ -126,14 +126,14 @@ const EventDetails = () => {
         </div>
         <div class="schedule-days">
           <button class="year-button" id="friday" onClick={showFriday}>
-            <span class="schedule-header-word">FRIDAY 9/15</span>
+            <span class="schedule-header-word">SATURDAY 1/27</span>
           </button>
           <button
             class="year-button"
             id="saturday"
             onClick={showSaturday}
           >
-            <span class="schedule-header-word">SATURDAY 9/16</span>
+            <span class="schedule-header-word">SUNDAY 1/28</span>
           </button>
         </div>
         <div class="schedule" id="schedule">
