@@ -113,6 +113,7 @@ const EventDetails = () => {
       <div className="schedule-content">
         <div className="schedule-header"></div>
         <div className="section-header">Schedule</div>
+        <div className="section-paragraph">Have questions? Head over to Rashid.</div>
         <div class="legend">
           <div class="legend-event">
             <div class="legend-box foods"></div>

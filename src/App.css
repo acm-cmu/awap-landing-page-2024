@@ -3,6 +3,7 @@
   --background-color: #d08572;
   --main-color: #141d2e;
   --secondary-color: #87a1a6;
+  --ternary-color: #284a8a;
   --text-color: #c6d2cd;
   --font-1: "Rubik";
   --font-2: "Archivo Narrow";
@@ -31,6 +32,13 @@
 .section-header {
   font-family: var(--section-header-font);
   color: var(--section-header-color);
+  font-size: 200%;
+  width: 100%;
+}
+
+.section-paragraph {
+  font-family: var(--section-header-font);
+  color: var(--ternary-color);
   font-size: 200%;
   width: 100%;
 }
