@@ -40,7 +40,7 @@ const fridaySchedule = () => {
         </div>
         <div class="col">
           <p>Midnight Snack</p>
-          <p class="details">Gates 3 Atrium</p>
+          <p class="details">Reddy Conference Room</p>
           <p class="details">Insomnia Cookies</p>
         </div>
       </div>
