@@ -1,10 +1,10 @@
 .App {
   /* variables to set colors, fonts, etc. */
-  --background-color: #d08572;
-  --main-color: #141d2e;
-  --secondary-color: #87a1a6;
-  --ternary-color: #284a8a;
-  --text-color: #c6d2cd;
+  --background-color: #cfad81;
+  --main-color: #618054;
+  --secondary-color: #227b3e;
+  --ternary-color: #227b3e;
+  --text-color: #227b3e;
   --font-1: "Rubik";
   --font-2: "Archivo Narrow";
   --font-3: "Karla";

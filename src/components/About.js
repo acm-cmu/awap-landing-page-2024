@@ -16,12 +16,12 @@ const About = () => {
         <FAQButton
           key={2}
           question="Q: What is this year's game about?"
-          answer="This year's theme is Debris Defense! Players will use optimize their towers and resources to protect their base against incoming space debris. The team with the best algorithm wins!"
+          answer="This year's theme is Raid CMU Legends! Players will go head-to-head on a medieval battefield to grow their kingdoms and defeat their opponents. The team with the best algorithm wins!"
         />
         <FAQButton
           key={3}
           question="Q: What if I don't have a team yet?"
-          answer="No worries! We will have a team matching channel on Discord :)"
+          answer="No worries! We will have a team matching channel on Discord :) Join at https://discord.gg/W2Aq6x7KYB"
         />
         <FAQButton
           key={1}

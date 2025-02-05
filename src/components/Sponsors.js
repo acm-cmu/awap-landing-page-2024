@@ -17,6 +17,7 @@ import ford_logo from "../sponsors/ford.png";
 import bnymellon_logo from "../sponsors/bnymellon.jpeg";
 import deshaw_logo from "../sponsors/deshaw.png";
 import lockheed_logo from "../sponsors/lockheed.png";
+import jumptrading_logo from "../sponsors/jump_trading_logo.png"
 
 const Sponsors = () => {
   return (
@@ -35,9 +36,9 @@ const Sponsors = () => {
             <a href="https://www.hudsonrivertrading.com">
               <img src={hrt_logo} alt="hrt" />
             </a>
-            <a href="https://www.stripe.com">
+            {/* <a href="https://www.stripe.com">
               <img src={stripe_logo} alt="stripe" />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="row" id="gold-sponsors-container">
@@ -46,17 +47,11 @@ const Sponsors = () => {
             <a href="https://www.ford.com">
               <img src={ford_logo} alt="ford" />
             </a>
-            <a href="https://www.bnymellon.com/">
-              <img src={bnymellon_logo} alt="ford" />
+            <a href="https://www.jumptrading.com/">
+              <img src={jumptrading_logo} alt="jump trading" />
             </a>
-            <a className="hrt-logo" href="https://www.deshaw.com/">
-              <img src={deshaw_logo} alt="hudson river trading" />
-            </a>
-            <a
-              className="rounded-sponsor-img"
-              href="https://www.bloomberg.com/"
-            >
-              <img src={bloomberg_logo} alt="bloomberg" />
+            <a href="https://www.deshaw.com/">
+              <img src={deshaw_logo} alt="de shaw" />
             </a>
             <a
               className="rounded-sponsor-img"
@@ -64,21 +59,17 @@ const Sponsors = () => {
             >
               <img src={janestreet_logo} alt="jane street" />
             </a>
-            <a href="https://sig.com/">
+            {/* <a href="https://sig.com/">
               <img src={sig_logo} alt="sig" />
-            </a>
-            <a href="https://www.lockheedmartin.com/en-us">
-              <img src={lockheed_logo} alt="lockheed" />
-            </a>
-            
+            </a> */}
           </div>
         </div>
         <div className="row" id="silver-sponsors-container">
           {/* <div className="col sponsors-level">Silver</div> */}
           <div className="col sponsors sponsors-silver">
-            <a href="https://www.sandia.gov/">
+            {/* <a href="https://www.sandia.gov/">
               <img src={sandia_logo} alt="sandia" />
-            </a>
+            </a> */}
             
           </div>
         </div>

@@ -2,7 +2,7 @@ import "../styles/Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { slide as Menu } from "react-burger-menu";
-import awap_logo from "../awap-logo.PNG";
+import awap_logo from "../AWAP-2025-Logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

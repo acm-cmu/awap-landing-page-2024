@@ -24,7 +24,7 @@
 }
 
 .about .about-content p {
-  color: rgb(171, 94, 78);
+  color: var(--background-color);
   line-height: 200%;
   font-weight: bold;
 }
@@ -52,7 +52,7 @@
 }
 
 .beginner-button:hover {
-  background-color: rgba(218, 189, 157);
+  background-color: #fcc7d8;
 }
 
 .beginner-button:after {

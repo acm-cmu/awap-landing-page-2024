@@ -6,7 +6,7 @@ const fridaySchedule = () => {
     <div>
       <div class="schedule-event main-event2">
         <div class="col">
-          <p>5:00 - 6:00 PM</p>
+          <p>11:00 AM - 12:00 PM</p>
         </div>
         <div class="col">
           <p>Check-in</p>
@@ -16,7 +16,7 @@ const fridaySchedule = () => {
       </div>
       <div class="schedule-event main-event2">
         <div class="col">
-          <p>6:00 - 6:30 PM</p>
+          <p>11:30 AM - 12:30 AM</p>
         </div>
         <div class="col">
           <p>Opening Ceremony</p>
@@ -26,7 +26,7 @@ const fridaySchedule = () => {
       </div>
       <div class="schedule-event foods">
         <div class="col">
-          <p>7:00 - 8:00 PM</p>
+          <p>5:00 - 6:00 PM</p>
         </div>
         <div class="col">
           <p>Dinner</p>

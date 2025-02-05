@@ -182,12 +182,12 @@ const Past = () => {
         <div className="past-info-box" id="past-info">
           {year2023()}
         </div>
-        <section>
+        {/* <section>
           <img className="rover" src={rover} alt="" />
           <div className="line">
             <hr />
           </div>
-        </section>
+        </section> */}
       </div>
     </div>
   );

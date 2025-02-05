@@ -1,5 +1,5 @@
 import "../styles/Home.css";
-import awap_logo from "../awap-logo.PNG";
+import awap_logo from "../AWAP-2025-Logo.png";
 
 const Homepage = () => {
   return (
@@ -13,14 +13,14 @@ const Homepage = () => {
         <div className="home-content">
         <img src={awap_logo} width="100%" alt="AWAP logo" />
           <div className="home-acm">ACM@CMU PRESENTS</div>
-          <div className="home-awap">Algorithms with a Purpose 2024:</div>
-          <div className="home-event-title">DEBRIS DEFENSE</div>
+          <div className="home-awap">Algorithms with a Purpose 2025:</div>
+          <div className="home-event-title">Raid CMU Legends</div>
           
           <div className="home-register-button-wrapper">
             <div className="home-register-button">
               <a
                 className="home-register-link"
-                href="https://forms.gle/hF41DL4ARRwHJFjc9"
+                href="https://forms.gle/jto6LmZQXNqaS9E97"
                 target="_blank"
               >
                 Register Here!
