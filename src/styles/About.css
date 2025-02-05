@@ -52,7 +52,7 @@
 }
 
 .beginner-button:hover {
-  background-color: #fcc7d8;
+  background-color: #dec6a6;
 }
 
 .beginner-button:after {
@@ -72,7 +72,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: rgb(225, 227, 231);
+  background-color: #7e5e39;
   margin: 0 0 30px 0;
   font-size: 1.08rem;
 }

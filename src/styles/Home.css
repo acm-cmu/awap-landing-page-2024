@@ -85,7 +85,7 @@
   color: var(--secondary-color);
   font-family: var(--font-3);
   font-size: 1.5em;
-  border: 2px solid var(--background-color);
+  border: 0px solid var(--background-color);
   border-radius: 2vh;
   background: var(--background-color);
   margin: 0 0 40px 0;
@@ -94,7 +94,7 @@
 }
 
 .home-register-button:hover {
-  background-color: rgb(231, 224, 229);
+  background-color: #dec6a6;
 }
 
 .home-register-link {
