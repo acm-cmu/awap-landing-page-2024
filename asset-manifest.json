@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.54d81811.css",
-    "main.js": "/static/js/main.ae0e0925.js",
+    "main.js": "/static/js/main.32ba8a36.js",
     "static/media/awap22-image.png": "/static/media/awap22-image.1a9db4d94b88032a8994.png",
     "static/media/meta-logo.png": "/static/media/meta-logo.b0c4aca67dee606be8b1.png",
     "static/media/Rubik-ExtraBold.ttf": "/static/media/Rubik-ExtraBold.f8a8999c078e4c19d1c2.ttf",
@@ -28,10 +28,10 @@
     "static/media/omc-logo.png": "/static/media/omc-logo.19207c6d14a00d2f9302.png",
     "index.html": "/index.html",
     "main.54d81811.css.map": "/static/css/main.54d81811.css.map",
-    "main.ae0e0925.js.map": "/static/js/main.ae0e0925.js.map"
+    "main.32ba8a36.js.map": "/static/js/main.32ba8a36.js.map"
   },
   "entrypoints": [
     "static/css/main.54d81811.css",
-    "static/js/main.ae0e0925.js"
+    "static/js/main.32ba8a36.js"
   ]
 }
