@@ -66,13 +66,10 @@
   }
   
   .main-event2 {
-    background-color: #694925;
+    background-color: #8E4510;
   }
-  .workshop {
-    background-color: #7e5e39;
-  }
-  .foods {
-    background-color: #7e5e39;
+  .workshop, .foods {
+    background-color: #6C7516;
   }
   
   .schedule-day-button {
@@ -80,10 +77,10 @@
     border-radius: 10px;
     font-size: 1.75rem;
     font-weight: 900;
-    background: #ca6b12;
+    background: #D19926;
     cursor: pointer;
-    color: white;
-    border: 0px solid white;
+    color: #EBDEB0;
+    border: 2px solid #163D11;
     text-align: center;
     margin: 20px;
   }
