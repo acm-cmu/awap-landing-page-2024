@@ -16,7 +16,7 @@ const fridaySchedule = () => {
       </div>
       <div class="schedule-event main-event2">
         <div class="col">
-          <p>11:30 AM - 12:30 AM</p>
+          <p>11:30 AM - 12:30 PM</p>
         </div>
         <div class="col">
           <p>Opening Ceremony</p>
